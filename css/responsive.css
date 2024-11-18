@@ -1,0 +1,56 @@
+
+
+/* All Device Support Css */
+@media (max-width: 991px) {
+    .services .s-warpper {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .footer .footer-middle {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+
+@media (max-width: 767px) {
+    .services .s-warpper {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .footer .footer-middle {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+    .container{
+        padding: 0px 5% !important;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .header-top .logo a {
+        font-size: 36px;
+        letter-spacing: 0px;
+    }
+    .header .header-bottom h1 {
+        font-size: 52px;
+    }
+    .email-form {
+        width: 85%;
+    }
+    .email-section .subs-warpper input {
+        width: 90%;
+    }
+    .trending .t-top h2{
+        font-size: 24px;
+    }
+    .services .s-top h2{
+        font-size: 24px;
+    }
+    .s-warpper .s-box h2{
+        font-size: 18px;
+    }
+    .ask .ask-top h2{
+        font-size: 24px;
+    }
+    .ask .ask-menu .ask-item p {
+        font-size: 16px;
+    }
+}
